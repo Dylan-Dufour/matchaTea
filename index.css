@@ -1,0 +1,102 @@
+/* matchaX.css */
+
+/* Style global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1c6e4f;
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Section d'introduction */
+.intro {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    color: #1c6e4f;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.cta {
+    display: inline-block;
+    background-color: #1c6e4f;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.cta:hover {
+    background-color: #155c42;
+}
+
+/* Section des produits phares */
+.produits-phare {
+    text-align: center;
+}
+
+.produits-phare h2 {
+    font-size: 2rem;
+    color: #1c6e4f;
+    margin-bottom: 30px;
+}
+
+.produits {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.produit {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.produit img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.produit h3 {
+}

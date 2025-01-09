@@ -1,0 +1,88 @@
+/* matchaX.css */
+
+/* Style pour la page A Propos */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1c6e4f;
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Section Introduction A Propos */
+.intro-apropos {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro-apropos h1 {
+    font-size: 2.5rem;
+    color: #1c6e4f;
+}
+
+.intro-apropos p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Section Description de l’équipe */
+.description-equipe {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.description-equipe h2 {
+    font-size: 2rem;
+    color: #1c6e4f;
+    margin-bottom: 30px;
+}
+
+.membres-equipe {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.membre {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+}
+
+.membre img {
+    width: 100%;
+    height: 
+}

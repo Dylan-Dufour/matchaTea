@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Client</title>
+    <link rel="stylesheet" href="page de profil.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="page de profil.html">Mon Profil</a></li>
+                <li><a href="commandes.html">Mes Commandes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profil">
+            <h1>Modifier mes informations</h1>
+            <form action="submit_profil.php" method="POST">
+                <div class="form-group">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" value="Dupont" required>
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" value="Jean" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" value="jean.dupont@mail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="adresse">Adresse :</label>
+                    <input type="text" id="adresse" name="adresse" value="12 rue de Paris, 75001 Paris" required>
+                </div>
+                <button type="submit">Mettre à jour mes informations</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mon Entreprise - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
